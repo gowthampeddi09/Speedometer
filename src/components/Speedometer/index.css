@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.speedometer-bg-container {
+  background-color: #07080c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  height: 350px;
+  width: 550px;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: bold;
+}
+.speed {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+}
+.min-max-speed {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 10px;
+}
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 6px;
+}
+.apply-break-button {
+  border-style: solid;
+  border-color: #94a3b8;
+  border-width: 3px;
+  border-radius: 5px;
+  color: #94a3b8;
+  padding: 6px;
+}
